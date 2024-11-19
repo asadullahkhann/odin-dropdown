@@ -21,6 +21,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 8px;
     background-color: #1992d2;
 }
@@ -28,7 +29,6 @@ body {
 h1 {
     color: #fff;
     font-family: 'norse-bold';
-    align-self: center;
 }
 
 .toggle-dropdown > button {
@@ -41,8 +41,8 @@ button:active {
 }
 
 .toggle-dropdown img {
-    width: 42px;
-    height: 42px;
+    width: 32px;
+    height: 32px;
 }
 
 .dropdown {
