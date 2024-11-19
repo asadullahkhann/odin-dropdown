@@ -1,75 +1,75 @@
 @font-face {
-    font-family: 'ktf-roadbrush';
-    src: url('./fonts/KTF-Roadbrush.ttf');
+  font-family: "ktf-roadbrush";
+  src: url("./fonts/KTF-Roadbrush.ttf");
 }
 
 @font-face {
-    font-family: 'norse-bold';
-    src: url('./fonts/Norse-Bold.otf');
+  font-family: "norse-bold";
+  src: url("./fonts/Norse-Bold.otf");
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #e2e8f0;
+  background-color: #e2e8f0;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
-    background-color: #1992d2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #1992d2;
 }
 
 h1 {
-    color: #fff;
-    font-family: 'norse-bold';
+  color: #fff;
+  font-family: "norse-bold";
 }
 
 .toggle-dropdown > button {
-    background-color: #1992d2;
-    border: none;
+  background-color: #1992d2;
+  border: none;
 }
 
 button:active {
-    opacity: .5;
+  opacity: 0.5;
 }
 
 .toggle-dropdown img {
-    width: 32px;
-    height: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 .dropdown {
-    position: absolute;
-    top: 53px;
-    right: 0;
-    background-color: #facc15;
+  position: absolute;
+  top: 53px;
+  right: 0;
+  background-color: #facc15;
 }
 
 ul {
-    list-style: none;
-    display: grid;
-    gap: 8px;
-    padding: 8px;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  padding: 8px;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
-    font-size: 1.2rem;
-    font-family: 'ktf-roadbrush';
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-family: "ktf-roadbrush";
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
